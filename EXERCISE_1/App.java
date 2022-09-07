@@ -1,4 +1,6 @@
 public class App {
+    private static final Object Legendary = null;
+
     public static void main(String[] args) {
 
         // Character Class
@@ -56,7 +58,7 @@ public class App {
 
         // Exercise 1
         // Weapon Class
-        Weapon Sword = new weapon();
+        Weapon Sword = new Weapon();
 
        Sword.Name = "Lapu-Lapu";
        Sword.Weapontype = "Lumad Sword";
@@ -66,8 +68,7 @@ public class App {
        Sword.description = " Lapu lapus only weapon to kill powerful enemies ";
        Sword.weaponDecription();
 
-        Weapon Sword = new Weapon("Lapu-Lapu", "Lumad Sword", 80, 30, "Lapu lapus only weapon to kill powerful enemies");
-            Sword.weaponDecription();
+        Sword.weaponDecription();
         
     }
 }

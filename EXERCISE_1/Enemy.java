@@ -6,6 +6,7 @@ public class Enemy {
     boolean hasMagicImmunity;
     String name;
     String greeting;
+    private String greetings;
 
     // Enemy method
     public void enemyDialogue() {
